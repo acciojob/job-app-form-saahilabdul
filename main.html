@@ -3,13 +3,54 @@
 <html>
 
 <head>
-	<link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-	<!-- the entire body must be written by student -->
+    <form action="" method="post">
+        <!-- name -->
+        <label for="name">Name</label>
+        <input type="text" id="name" required>
+        <br>
+        <!-- email -->
+        <label for="email">Email</label>
+        <input type="email" id="email" required>
+        <br>
+        <!-- gender -->
+        <label for="gender">Male</label>
+        <input type="radio" name="gender" required>
+        <label for="gender">Female</label>
+        <input type="radio" name="gender" required>
+        <br>
+        <!-- laptop brands -->
+        <label for="laptop">Laptop Brands</label>
+        <select id="laptop">
+            <option id="laptop">Apple</option>
+            <option id="laptop">Asus</option>
+            <option id="laptop">Hp</option>
+        </select>
+        <br>
+        <!-- age -->
+        <label for="age">Age</label>
+        <input type="text" id="age" required>
+        <br>
+        <!-- dob -->
+        <label for="dob">DOB</label>
+        <input type="date" id="dob" required>
+        <br>
+        <!-- password -->
+        <label for="password">Password</label>
+        <input type="password" id="password" required>
+        <br>
+        <label for="portfolio">Portfolio</label>
+        <input type="url" id="portfolio">
+        <br>
+        <!-- button1 -->
+        <button type="submit">Submit</button>
+    </form>
+
     <script type="text/javascript" src="./script.js">
-</script>
+    </script>
 
 </body>
 
